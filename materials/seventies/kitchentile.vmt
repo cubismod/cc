@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	$basetexture	"seventies/kitchentile"
+	$bumpmap	"seventies/kitchentile_normal"
+	$envmap	"env_cubemap"
+	$normalmapalphaenvmapmask	1
+	$surfaceprop	tile
+	%keywords	"seventies,portal"
+}

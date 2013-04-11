@@ -1,0 +1,102 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 81.666672 -1.000000
+  param "0.000000"
+  loopcount "-1"
+}
+actor "scientist1"
+{
+  channel "actions"
+  {
+    event sequence "sit_chair"
+    {
+      time 0.013333 82.771111
+      param "Sit_Chair"
+    }
+    event lookat "lookatplayer"
+    {
+      time 0.686667 2.693333
+      param "!player"
+    }
+    event speak "npc_citizen.goodgod"
+    {
+      time 0.926666 1.794512
+      param "npc_citizen.goodgod"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event generic "randlook1"
+    {
+      time 3.966667 9.833334
+      param "AI_RANDOMLOOK"
+      param2 "scientist1"
+    }
+    event gesture "shake"
+    {
+      time 0.733333 2.366667
+      param "hg_headshake"
+      absolutetags playback_time
+      {
+        "apex" 0.208333
+        "loop" 0.270833
+        "extreme" 0.416667
+        "end" 0.625000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.208333
+        "loop" 0.270833
+        "extreme" 0.416667
+        "end" 0.625000
+      }
+      sequenceduration 1.633333
+    }
+    event generic "flexhead"
+    {
+      time 15.966667 35.833332
+      param "AI_RANDOMHEADFLEX"
+      param2 "scientist1"
+    }
+    event gesture "look"
+    {
+      time 45.166668 62.508335
+      param "G_look_small"
+      absolutetags playback_time
+      {
+        "apex" 0.027536
+        "accent" 0.039337
+        "loop" 0.051138
+        "end" 0.973196
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.325581
+        "accent" 0.465116
+        "loop" 0.604651
+        "end" 0.697674
+      }
+      sequenceduration 1.466667
+    }
+    event lookat "playerlook"
+    {
+      time 46.099998 52.066666
+      param "!player"
+      yaw "24"
+    }
+  }
+  faceposermodel "models\Humans\Group01\male_08.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "4"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

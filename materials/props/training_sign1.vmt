@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"props/training_sign1"
+	"%noportal"	"1"
+	"$surfaceprop"	"glass"
+	"%keywords"	"portal"
+}

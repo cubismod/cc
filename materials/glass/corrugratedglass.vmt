@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	$basetexture	"glass/corrugratedglass"
+	$translucent "1"
+	%noportal	"1"
+	$surfaceprop	"glass"
+	%keywords	"portal,clonedcube,glass,corrugrated"
+	$envmap	"env_cubemap"
+	$envmapmask	"glass/corrugratedglass_mask"
+	
+}

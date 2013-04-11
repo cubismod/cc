@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	$basetexture	"models/props_lighting/btsfluorescent_blue"
+	$selfillum	"1"
+	$surfaceprop "glass"
+}

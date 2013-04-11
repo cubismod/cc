@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	$basetexture	"metal/whitetile2"
+	$bumpmap	"metal/blacktile_normal"
+	$surfaceprop	"concrete"
+	$envmap	"env_cubemap"
+	$normalmapalphaenvmapmask	"1"
+	$envmaptint "[.01 .01 .01]"
+	%keywords	"portal,clonedcube,concrete,white,tile"
+}

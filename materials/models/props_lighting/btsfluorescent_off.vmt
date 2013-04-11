@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	$basetexture	"models/props_lighting/btsfluorescent_off"
+	$surfaceprop "glass"
+}

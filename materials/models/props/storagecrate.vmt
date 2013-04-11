@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	$basetexture	"models/props/storagecrate"
+	
+	$phong 1
+ 
+	$bumpmap				"models/props/storagecrate_normal"
+	$phongexponent			5
+	$phongexponenttexture	"models/props/storagecrate_exponent"
+	$phongboost				10
+	$phongfresnelranges		"[0 0.5 1]"
+	$lightwarptexture	"models/props/metal_box_lightwarp.vtf"
+}

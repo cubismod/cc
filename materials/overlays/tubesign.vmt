@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/tubesign"
+	"$surfaceprop" "glass"
+	"$selfillum" 1
+	"%keywords" "portal"
+}

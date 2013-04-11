@@ -1,0 +1,12 @@
+VertexLitGeneric
+	{
+		$basetexture	"models/props/popout_alarm_blue"
+		$bumpmap		"models/props/normals/popout_blue_normal"
+		$selfillum		"1"
+		$surfaceprop	"plastic"
+		$phong	1
+		$phongexponent 20
+		$phongboost 2
+		$phongfresnelranges	"[0.5 0.5 1]"
+	}
+		

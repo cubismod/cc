@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"paint/paintonewall1"
+	"$bumpmap"	"paint/paintonewall1_normal"
+}

@@ -1,0 +1,52 @@
+"credits.txt"
+{
+
+"IntroCreditsNames"
+{
+	" "	          "CreditsText"
+	" "	          "CreditsText"
+	"Modding by cubis"	"CreditsText"
+	" "	          "CreditsText"
+	"CUBiS Voice by Elena"	"CreditsText"
+	" "	          "CreditsText"
+	"Announcer and other voices by cubis"	"CreditsText"
+	
+	" "	          "CreditsText"
+	"Music by Hyphellux"	"CreditsText"
+	" "	          "CreditsText"
+	"Sound Effects from"	"CreditsText"
+	"Freesound.org"	"CreditsText"
+	"Valve"	"CreditsText"
+	" "	          "CreditsText"
+	"2012 Hexastyle"	"CreditsText"
+	"Special thanks to:"	          "CreditsText"
+	"ModDB"	"CreditsText"
+	"The Community"	"CreditsText"
+	" "	"CreditsText"
+	"And of Course..."	"CreditsText"
+	" "	"CreditsText"
+	"V"	"WeaponIcons"
+}
+
+"CreditsParams"
+{
+	"logo" "Cloned Cube'"
+	
+	"fadeintime"	"5"
+	"fadeouttime"	"5"
+	"fadeholdtime"	"5"
+	"nextfadetime"	"5"
+	"pausebetweenwaves" "1.0"
+	"logotime" "1.0"
+	"posx"	"96"
+	"posy"	"360"
+
+	"color" "255 255 255 128"
+
+	//Outro Parameters
+	"scrolltime" "60"
+	"separation"  "10"
+}
+
+
+}

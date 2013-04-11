@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/targetmark"
+	%keywords	"portal,clonedcube,signage,overlay"
+	"$decal"	"1"
+	"$translucent" 1
+}

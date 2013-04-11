@@ -1,0 +1,88 @@
+// Choreo version 1
+actor "announcer"
+{
+  channel "voice"
+  {
+    event speak "Portal.ding_on"
+    {
+      time 0.013333 0.203333
+      param "Portal.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.training2_start"
+    {
+      time 0.266667 37.244446
+      param "Cloned_Cube.training2_start"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_off"
+    {
+      time 37.291111 37.481110
+      param "Portal.ding_off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event firetrigger "trigger"
+    {
+      time 13.722222 -1.000000
+      param "1"
+    }
+    event firetrigger "trigger2"
+    {
+      time 19.222221 -1.000000
+      param "1"
+    }
+    event firetrigger "trigger3"
+    {
+      time 21.166666 -1.000000
+      param "1"
+    }
+    event firetrigger "trigger4"
+    {
+      time 24.722221 -1.000000
+      param "1"
+    }
+    event firetrigger "trigger5"
+    {
+      time 25.833332 -1.000000
+      param "1"
+    }
+    event firetrigger "trigger6"
+    {
+      time 31.333332 -1.000000
+      param "1"
+    }
+    event firetrigger "trigger7"
+    {
+      time 29.500000 -1.000000
+      param "1"
+    }
+    event firetrigger "trigger8"
+    {
+      time 33.055553 -1.000000
+      param "1"
+    }
+    event firetrigger "trigger9"
+    {
+      time 35.777779 -1.000000
+      param "1"
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "12"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/old_cube_dispensery"
+	"$translucent"	"1"
+}

@@ -1,0 +1,43 @@
+// Choreo version 1
+actor "announcer"
+{
+  channel "audio"
+  {
+    event speak "Portal.ding_on"
+    {
+      time 0.046667 0.236667
+      param "Portal.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.statisvault"
+    {
+      time 0.313334 27.692087
+      param "Cloned_Cube.statisvault"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_off"
+    {
+      time 27.820004 28.010004
+      param "Portal.ding_off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

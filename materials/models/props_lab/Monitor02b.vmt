@@ -1,0 +1,17 @@
+
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_lab/Monitor02b"
+	"$surfaceprop" "plastic"
+	"$selfillum"	"1"
+	
+	$phong 1
+ 
+	$bumpmap				"models/props_lab/Monitor02b_normal"
+	$phongexponent			5
+	$phongexponenttexture	"models/props/lab/Monitor02b_exponent"
+	$phongboost				3.0
+	$phongfresnelranges		"[0 0.5 1]"
+	
+	
+}

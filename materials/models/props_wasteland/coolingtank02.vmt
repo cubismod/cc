@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_wasteland/coolingtank02"
+	"$surfaceprop" "metal"
+      	"$bumpmap"	"models/props_wasteland/coolingtank_normal"
+	
+	$phong 1
+	$phongexponent	10
+	$phongboost	30
+	$phongfresnelranges	"[0.05 0.5 1]"
+	
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "signage/vitr1"
+	%keywords	"portal,clonedcube,signage,overlay"
+	"$envmap"	"env_cubemap"
+	"$envmapmask"	"signage/vitr1_envmap"
+}

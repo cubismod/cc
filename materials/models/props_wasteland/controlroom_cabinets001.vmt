@@ -1,0 +1,13 @@
+
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "Models/props_wasteland/controlroom_filecabinets001"
+	"$surfaceprop" "metal"
+	"$bumpmap"     "Models/props_wasteland/controlroom_filecabinets001_normal"
+	
+	$phong 1
+	$phongexponent	20
+	$phongboost	5
+	$phongfresnelranges	"[0.01 0.2 1]"
+}

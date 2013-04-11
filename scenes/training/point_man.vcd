@@ -1,0 +1,122 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 12.422223 -1.000000
+  param "8.800000"
+  loopcount "-1"
+}
+actor "scientist"
+{
+  channel "motion"
+  {
+    event sequence "watch_clock"
+    {
+      time 0.026667 3.040000
+      param "d1_t01_BreakRoom_WatchClock"
+      event_ramp
+      {
+        0.0000 1.0000
+        2.9120 1.0000
+      }
+    }
+    event speak "npc_citizen.uhoh"
+    {
+      time 2.760000 3.247483
+      param "npc_citizen.uhoh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event lookat "look.at.chell"
+    {
+      time 2.406667 3.580000
+      param "!player"
+    }
+    event sequence "angry"
+    {
+      time 2.980000 8.294016
+      param "idle_angry"
+      event_ramp
+      {
+        0.1520 0.7846
+        5.3140 1.0000
+      }
+    }
+    event moveto "move_to_p"
+    {
+      time 3.712121 5.825758
+      param "sci_seq_p1"
+      param2 "Run"
+      resumecondition
+    }
+    event sequence "point_1"
+    {
+      time 6.000000 8.300000
+      param "G_righthandpoint"
+      event_ramp
+      {
+        0.0160 0.5077
+        2.1780 0.5769
+      }
+      fixedlength
+    }
+    event lookat "la_1"
+    {
+      time 6.007576 7.446970
+      param "sci_seq_la1"
+    }
+    event lookat "lookat_player"
+    {
+      time 7.371212 7.795455
+      param "!player"
+    }
+    event moveto "moveto_p2"
+    {
+      time 8.303031 8.803031
+      param "sci_seq_p2"
+      param2 "Walk"
+      resumecondition
+    }
+    event sequence "typeat_kb"
+    {
+      time 8.818182 12.451515
+      param "g_R_type"
+      fixedlength
+    }
+    event lookat "lookat_kb"
+    {
+      time 8.803031 12.468687
+      param "sci_seq_la2"
+    }
+    event firetrigger "trigger1"
+    {
+      time 6.074074 -1.000000
+      param "1"
+    }
+    event generic "blink"
+    {
+      time -0.009259 12.490742
+      param "AI_BLINK"
+      param2 "scientist"
+    }
+    event lookat "lookat.clock"
+    {
+      time 0.009259 2.388889
+      param "clock"
+    }
+  }
+  faceposermodel "models\Humans\Group01\male_07.mdl"
+}
+
+mapname "C:\Program Files (x86)\Steam\steamapps\sourcemods\cc\maps\training2.bsp"
+scalesettings
+{
+  "SceneRampTool" "98"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "72"
+}
+fps 60
+snap off
+ignorePhonemes off

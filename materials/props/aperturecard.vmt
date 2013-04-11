@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	$basetexture	"props/aperturecard"
+	$envmap	"env_cubemap"
+	$envmapmask	"props/aperturecard_mask"
+	$surfaceprop	"paper"
+}

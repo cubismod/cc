@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	$basetexture	"seventies/wallpanel"
+	$bumpmap	"seventies/wallpanel_normal"
+	$envmap	"env_cubemap"
+	$normalmapalphaenvmapmask	1
+	$surfaceprop	tile
+	%keywords	"seventies,portal"
+}

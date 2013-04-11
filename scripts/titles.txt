@@ -1,0 +1,20 @@
+//CHAPTER TITLES
+
+$fadein 0.01
+$holdtime 5
+$position -1 0.58
+
+CHAPTER1_TITLE
+{
+"Cloned Cube_Chapter1_Title"
+}
+
+CHAPTER2_TITLE
+{
+"Cloned Cube_Chapter2_Title"
+}
+
+CHAPTER3_TITLE
+{
+"Cloned Cube_Chapter3_Title"
+}

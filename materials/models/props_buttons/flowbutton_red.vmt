@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_buttons/flowbutton_red"
+	"$bumpmap"	"models/props_buttons/flowbutton_normal"
+	"$surfaceprop"	"plastic"
+	"$selfillum"	"1"
+	
+	"$phong"	1
+	"$phongexponent"	"20"
+	"$phongboost"	"7"
+	"$phongfresnelranges"	"[0.2 0.5 1]"
+}

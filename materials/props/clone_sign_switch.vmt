@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{   
+   "$baseTexture" "props/clone_sign_switch"
+   "Proxies" 
+   {
+      "ToggleTexture" 
+      {
+         "toggleTextureVar" "$baseTexture" 
+                     "toggleTextureFrameNumVar" "$frame" 
+                     "toggleTextureShouldWrap" "0" 
+      } 
+   } 
+}

@@ -1,0 +1,38 @@
+// envmaptint_fix
+"vertexlitgeneric"
+{
+	"$basetexture" "plastic/plasticwall001a"
+	"%keywords" "portal"
+
+	// note: even though env_cubemap is here, it will turned off for dx6
+	// because $multipass 1 isn't defined
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .03 .03 .03 ]"
+	"$envmapcontrast" 0.5
+	"$envmapsaturation" 1
+
+	"vertexlitgeneric_hdr_dx9"
+	{
+		"$bumpmap" "plastic/plasticwall001a_normal"
+//		"$normalmapalphaenvmapmask" 1
+	}
+
+	"vertexlitgeneric_dx9"
+	{
+		"$bumpmap" "plastic/plasticwall001a_normal"
+//		"$normalmapalphaenvmapmask" 1
+	}
+
+	"vertexlitgeneric_dx8"
+	{
+		"$bumpmap" "plastic/plasticwall001a_normal"
+		"$nodiffusebumplighting" 1
+//		"$normalmapalphaenvmapmask" 1
+	}
+
+	"vertexlitgeneric_nobump_dx8"
+	{
+		"$basetexture" "plastic/plasticwall001a"
+//		"$basealphaenvmapmask" 1
+	}
+}

@@ -1,0 +1,99 @@
+// Choreo version 1
+actor "cubis"
+{
+  channel "audio"
+  {
+    event speak "boo"
+    {
+      time 0.306667 4.367982
+      param "Cloned_Cube.bootup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.cubis1"
+    {
+      time 5.186666 9.354648
+      param "Cloned_Cube.cubis1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_on"
+    {
+      time 4.933333 5.123333
+      param "Portal.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_off"
+    {
+      time 9.413334 9.603333
+      param "Portal.ding_off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_on"
+    {
+      time 11.973333 12.163333
+      param "Portal.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.unsafe"
+    {
+      time 12.213333 14.163810
+      param "Cloned_Cube.unsafe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_off"
+    {
+      time 14.200000 14.389999
+      param "Portal.ding_off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_on"
+    {
+      time 16.000000 16.190001
+      param "Portal.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.evacuate"
+    {
+      time 16.253334 17.785851
+      param "Cloned_Cube.evacuate"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_off"
+    {
+      time 17.820002 18.010002
+      param "Portal.ding_off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

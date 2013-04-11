@@ -1,0 +1,43 @@
+// Choreo version 1
+actor "1984mac"
+{
+  channel "voice"
+  {
+    event speak "Cloned_Cube.underbot_outro1"
+    {
+      time 0.026667 8.986576
+      param "Cloned_Cube.underbot_outro1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.underbot_outro2"
+    {
+      time 8.893332 33.163422
+      param "Cloned_Cube.underbot_outro2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.underbot_outro3"
+    {
+      time 33.066666 44.339661
+      param "Cloned_Cube.underbot_outro3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

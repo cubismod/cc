@@ -1,0 +1,6 @@
+"DecalModulate"
+{
+	"$basetexture" "overlays/apertureblue"
+	%keywords	"portal,clonedcube,signage,overlay"
+	"$decalscale"	"0.10"
+}

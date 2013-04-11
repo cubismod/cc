@@ -1,0 +1,83 @@
+// Choreo version 1
+actor "cubis"
+{
+  channel "audio"
+  {
+    event speak "Portal.ding_on"
+    {
+      time 0.066667 0.256667
+      param "Portal.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.subcore1"
+    {
+      time 0.326667 7.452404
+      param "Cloned_Cube.subcore1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.Glados_core.Curiosity_1"
+    {
+      time 7.480000 8.710657
+      param "Portal.Glados_core.Curiosity_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.gladcore1"
+    {
+      time 8.746667 11.463402
+      param "Cloned_Cube.gladcore1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.escape_01_first_hit_nag01-1"
+    {
+      time 11.533334 12.254173
+      param "Portal.escape_01_first_hit_nag01-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.pwrcomplete"
+    {
+      time 12.313334 23.618279
+      param "Cloned_Cube.pwrcomplete"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.CUBiS_Wakeup_1"
+    {
+      time 23.660000 40.610611
+      param "Cloned_Cube.CUBiS_Wakeup_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_off"
+    {
+      time 40.680000 40.869999
+      param "Portal.ding_off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

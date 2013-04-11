@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"props/bookcovers"
+	  
+	"$color" "[1.0 1.0 1.0]"
+
+	"$offset"	"0"
+	
+	"Proxies"
+	{
+		"EntityRandom"
+		{
+			"scale"	"30"
+			"resultVar"	"$offset"
+		}
+	}
+}

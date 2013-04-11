@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	$basetexture	"seventies/countertile"
+	$bumpmap	"seventies/countertile_normal"
+	$envmap	"env_cubemap"
+	$normalmapalphaenvmapmask	1
+	$surfaceprop	tile
+	%keywords	"seventies,portal"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	$basetexture	"models/props/testplant"
+	$surfaceprop	"plastic"	
+	$bumpmap	"models/props/testplant_map"
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	$basetexture	"props/plasticvendingmachine"
+	$surfaceprop	"plastic"
+	$envmap	"env_cubemap"
+	$envmapmask	"props/plasticvendingmachine_envmap"
+}

@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	$basetexture	"models/props/performa_base"
+	$surfaceprop	"plastic"
+	
+	$phong 1
+ 
+	$bumpmap				"models/props/performa_base_normal"
+	$phongexponent			10
+	$phongexponenttexture	"models/props/performa_base"
+	$phongboost				10
+	$phongfresnelranges		"[1 1 1]"
+	$lightwarptexture	"models/props/metal_box_lightwarp.vtf"
+	$rimlight               1
+	$rimlightexponent       2
+	$rimlightboost          2
+}

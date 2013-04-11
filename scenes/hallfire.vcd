@@ -1,0 +1,59 @@
+// Choreo version 1
+actor "announcer"
+{
+  channel "talk"
+  {
+    event speak "Portal.ding_on"
+    {
+      time 0.033333 0.223333
+      param "Portal.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_FloorTurret.DeployingKlaxon"
+    {
+      time 0.273333 1.289161
+      param "NPC_FloorTurret.DeployingKlaxon"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Cloned_Cube.hallwayfire"
+    {
+      time 1.340000 9.585397
+      param "Cloned_Cube.hallwayfire"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "NPC_FloorTurret.DeployingKlaxon"
+    {
+      time 8.473333 9.489161
+      param "NPC_FloorTurret.DeployingKlaxon"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_off"
+    {
+      time 9.526667 9.716666
+      param "Portal.ding_off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

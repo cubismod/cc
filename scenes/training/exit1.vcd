@@ -1,0 +1,32 @@
+// Choreo version 1
+actor "announcer"
+{
+  channel "voice"
+  {
+    event speak "Cloned_Cube.exitannouncer"
+    {
+      time 0.026667 19.752018
+      param "Cloned_Cube.exitannouncer"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_off"
+    {
+      time 19.826668 20.016668
+      param "Portal.ding_off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	$basetexture	"models/props/combox"
+	$surfaceprop	"plastic"
+	
+	$phong 1
+ 
+	$bumpmap				"models/props/combox_normal"
+	$phongexponent			5
+	$phongexponenttexture	"models/props/combox_exponent"
+	$phongboost				10
+	$phongfresnelranges		"[0 0.5 1]"
+	$lightwarptexture	"models/props/metal_box_lightwarp.vtf"
+}

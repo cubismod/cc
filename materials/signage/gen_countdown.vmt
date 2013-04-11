@@ -1,0 +1,15 @@
+ "UnlitGeneric"
+ {
+  "$baseTexture" "signage/gen_countdown"
+  "$surfaceprop" "glass"
+  "%keywords" "portal"
+  "Proxies" 
+  { 
+   "ToggleTexture"
+   {
+    "toggleTextureVar" "$baseTexture"
+    "toggleTextureFrameNumVar" "$frame"
+    "toggleTextureShouldWrap" "0"
+   } 	
+  } 
+ }

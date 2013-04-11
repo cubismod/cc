@@ -1,0 +1,8 @@
+All original and modified Portal and Half-Life 2 maps/models/materials/sounds/etc. are all copyright of Valve Software.
+For more information on Valve's licenses and agreements, please visit this page: http://store.steampowered.com/subscriber_agreement/
+
+All original Cloned Cube maps/models/materials/sounds/etc. are copyright of Hexastyle unless otherwise noted such as with Freesound sound effects.
+
+Cloned Cube as the downloaded file is released to the public non-commercial format so feel free to share the mod with others. However, keep in mind that this mod took months of work to finish/create so please respect that by making sure you do not modify the mod's content or use content from the mod without the permission of cubis, the creator. If you would like to use content from Cloned Cube, just contact cubis at http://icubeomyst.tumblr.com/ask and he will most likely allow you to.
+
+Thanks and enjoy the mod!

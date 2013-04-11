@@ -1,0 +1,17 @@
+// Choreo version 1
+actor "gman"
+{
+  channel "talk"
+  {
+    event speak "npc_citizen.youdbetterreload01"
+    {
+      time 0.368055 1.443407
+      param "npc_citizen.youdbetterreload01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  faceposermodel "models\gman.mdl"
+}
+

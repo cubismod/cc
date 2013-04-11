@@ -1,0 +1,16 @@
+"Refract"
+{
+ 	"$model" 1
+	"$refractamount" ".025"
+ 	"$bluramount" "1"
+	"$REFRACTTINT" "{183 204 218}"
+	"$scale" "[1 1]"
+	"$dudvmap" "glass/glass_normal"
+	"$normalmap" "glass/glass_normal"
+	"$surfaceprop" "glass"
+
+	"<dx90"
+	{
+		"$fallbackmaterial" "glass/refract01_dx8"
+	}
+}

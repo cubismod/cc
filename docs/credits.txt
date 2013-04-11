@@ -1,0 +1,34 @@
+Cloned Cube used sounds from Freesound from the following users:
+HardPCM
+Xythe
+LS
+sandyrb
+Benboncan
+ERH
+Nurykabe
+guitarguy1985
+dobroide
+lsprice
+suonho
+Matt_G
+Sergenious
+suzenako
+HerbertBoland
+steveygos93
+FreqMan
+ddohler
+hanstimm
+engreitz
+club sound
+
+Credits
+-Modding by cubis
+-Music by Hyphellux
+-Announcer and other voices by cubis
+-Central Core and CUBiS Voice by Elena
+-Sound effects from Freesound.org
+-2012 Hexastyle
+-Thanks to Valve and ModDB
+-http://moddb.com/mods/cloned-cube
+
+Cloned Cube isn't finished yet so watch out for the next release!

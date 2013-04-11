@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	$basetexture	"signage/autorailsigns/5"
+	$surfaceprop	"plastic"
+	"%keywords"	"portal,clonedcube,sign,electronic,led"
+	"$envmap"	"env_cubemap"
+	"$envmapmask"	"signage/autorailsigns/envmapmask"
+}
