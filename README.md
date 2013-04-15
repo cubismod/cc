@@ -29,3 +29,8 @@ Installation
 3. Exit and restart Steam.
 4. Launch new "Cloned Cube" mod icon in your Steam library.
 5. Play!
+
+Important to note about Github Installation
+==
+
+Due to the nature of Source Mods, if you want to clone the repository, you **must** choose the "sourcemods" folder of your Steam directory. A folder called "cc" will be created. Make sure not to rename the folder to another name as that will break some localization in titles within the mod. If you want to install a released zip version from our ModDB or other site, delete the repository and just extract the "cc" folder back into your "sourcemods" folder.
