@@ -1,4 +1,4 @@
-Cloned Cube used sounds from Freesound from the following users:
+Cloned Cube used sounds from Freesound.org from the following users:
 HardPCM
 Xythe
 LS
@@ -20,6 +20,10 @@ ddohler
 hanstimm
 engreitz
 club sound
+meatball4u
+jrssandoval
+mechwarreir
+sandyrb
 
 Credits
 -Modding by cubis
