@@ -1,7 +1,7 @@
 "GameInfo"
 {
 	gamelogo		1
-	game		"Cloned Cube [Github Master]"
+	game		"Cloned Cube Alpha .3"
 	title2		"v.3"
 	type		singleplayer_only
 	nodifficulty	1
