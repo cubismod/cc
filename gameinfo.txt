@@ -1,7 +1,7 @@
 "GameInfo"
 {
 	gamelogo		1
-	game		"Cloned Cube Alpha .3"
+	game		"Cloned Cube"
 	title2		"v.3"
 	type		singleplayer_only
 	nodifficulty	1
@@ -13,33 +13,46 @@
 	icon		"icon.tga"
 	
 	FileSystem
-   {
-      SteamAppId            400      // This will mount all the GCFs we need (240=CS:S, 220=HL2).
-      ToolsAppId            211      // Tools will load this (ie: source SDK caches) to get things like materials\debug, materials\editor, etc.
-      
-      //
-      // The code that loads this file automatically does a few things here:
-      //
-      // 1. For each "Game" search path, it adds a "GameBin" path, in <dir>\bin
-      // 2. For each "Game" search path, it adds another "Game" path in front of it with _<langage> at the end.
-      //    For example: c:\hl2\cstrike on a french machine would get a c:\hl2\cstrike_french path added to it.
-      // 3. For the first "Game" search path, it adds a search path called "MOD".
-      // 4. For the first "Game" search path, it adds a search path called "DEFAULT_WRITE_PATH".
-      //
+	{
+			SteamAppId                              400
+               
+			SearchPaths
+			{
+					game+mod                        |gameinfo_path|.
+					platform                        |gameinfo_path|.
+ 
+					// We search VPK files before ordinary folders, because most files will be found in
+					// VPK and we can avoid making thousands of file system calls to attempt to open files
+					// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
+					// system call.)
+					game_lv                         portal/portal_lv.vpk
+					game+mod                        portal/portal_english.vpk
+					game+mod                        portal/portal_pak.vpk
+					game                            |all_source_engine_paths|hl2/hl2_textures.vpk
+					game                            |all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
+					game                            |all_source_engine_paths|hl2/hl2_sound_misc.vpk
+					game                            |all_source_engine_paths|hl2/hl2_misc.vpk
+					platform                        |all_source_engine_paths|platform/platform_misc.vpk
+ 
+					// Now search loose files.  We'll set the directory containing the gameinfo.txt file
+					// as the first "mod" search path (after any user customizations).  This is also the one
+					// that's used when writing to the "mod" path.
+					mod+mod_write+default_write_path        |gameinfo_path|.
 
-      //
-      // Search paths are relative to the base directory, which is where hl2.exe is found.
-      //
-      // |gameinfo_path| points at the directory where gameinfo.txt is.
-      // We always want to mount that directory relative to gameinfo.txt, so
-      // people can mount stuff in c:\mymod, and the main game resources are in
-      // someplace like c:\program files\valve\steam\steamapps\half-life 2.
-      //
-      SearchPaths
-      {
-         Game            |gameinfo_path|.
-         Game            portal
-         Game            hl2
-      }
-   }
+					// Add the mod directory as a game search path.  This is also where where writes
+					// to the "game" path go.
+					game+game_write                 |gameinfo_path|.
+ 
+					// Where the game's binaries are
+					gamebin                         portal/bin
+ 
+					// Last, mount in shared Portal loose files
+					game                            |all_source_engine_paths|portal
+ 
+					// Last, mount in shared HL2 loose files
+					game                            |all_source_engine_paths|hl2
+					platform                        |all_source_engine_paths|platform
+ 
+                }
+        }
 }
