@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "lights/modular_light_1"
+	"$surfaceprop" "glass"
+	"%noportal"	"1"
+}

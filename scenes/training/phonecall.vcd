@@ -1,0 +1,25 @@
+// Choreo version 1
+actor "phone.actor"
+{
+  channel "sound"
+  {
+    event speak "Cloned_Cube.phonecall"
+    {
+      time 0.026667 256.350311
+      param "Cloned_Cube.phonecall"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "96"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
