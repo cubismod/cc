@@ -97,7 +97,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"14"
 				"weight"	"400"
 				"antialias" "1"
@@ -108,7 +108,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"14"
 				"weight"	"400"
 				"antialias" "1"
@@ -494,7 +494,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"14"
 				"weight"	"400"
 				"outline"	"1"
@@ -504,14 +504,14 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"14"
 				"weight"	"400"
 				"outline"	"1"
 			}
 			"1"	[$X360]
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"18"
 				"weight"	"200"
 				"outline"	"1"
@@ -784,8 +784,8 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/fonts/MILF__.ttf"
-		"3"		"resource/fonts/opensans.ttf"
-		"4"		"resource/fonts/ques.ttf"
+		"3"		"resource/fonts/din1451e.ttf"
+		"4"		"resource/fonts/mentone-semibol.otf"
 		"5"		"resource/fonts/Alégre Sans.ttf"
 	
 	}

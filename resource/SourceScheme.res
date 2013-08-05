@@ -60,8 +60,8 @@ Scheme
 		Frame.TitleTextInsetX			30
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"255 99 23 240"
-		Frame.OutOfFocusBgColor			"176 57 0 100"
+		Frame.BgColor					"255 215 189 40"
+		Frame.OutOfFocusBgColor			"56 23 0 5"
 		Frame.FocusTransitionEffectTime	"0.1"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"5"
@@ -69,7 +69,7 @@ Scheme
 		FrameGrip.Color2				"0 0 0 196"
 		FrameTitleButton.FgColor		"200 200 200 196"
 		FrameTitleButton.BgColor		"Blank"
-		FrameTitleButton.DisabledFgColor	"255 255 255 192"
+		FrameTitleButton.DisabledFgColor	"255 255 255 10"
 		FrameTitleButton.DisabledBgColor	"Blank"
 		FrameSystemButton.FgColor		"Blank"
 		FrameSystemButton.BgColor		"Blank"
@@ -77,9 +77,9 @@ Scheme
 		FrameSystemButton.DisabledIcon	""
 		FrameTitleBar.Font				"UiBold"
 		FrameTitleBar.TextColor			"White"
-		FrameTitleBar.BgColor			"255 128 64 200"
-		FrameTitleBar.DisabledTextColor	"255 255 255 192"
-		FrameTitleBar.DisabledBgColor	"White"
+		FrameTitleBar.BgColor			"0 0 0 40"
+		FrameTitleBar.DisabledTextColor	"0 0 0 20"
+		FrameTitleBar.DisabledBgColor	"255 255 255 1"
 
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
@@ -203,9 +203,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"20"
-				"weight"	"500"
+				"weight"	"100"
 				"antialias" "1"
 			}
 		}
@@ -214,7 +214,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"10"
 				"weight"	"500"
 				"antialias" "1"
@@ -234,7 +234,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"18"
 				"weight"	"500"
 				"antialias" "1"
@@ -244,7 +244,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"18"
 				"weight"	"1000"
 				"antialias" "1"
@@ -254,7 +254,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"18"
 				"weight"	"500"
 				"underline" "1"
@@ -265,7 +265,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias" "1"
@@ -275,7 +275,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"12"
 				"weight"	"0"
 				"dropshadow" "1"
@@ -286,7 +286,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"10"
 				"weight"	"0"
 				"antialias" "1"
@@ -297,7 +297,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"18"
 				"weight"	"0"
 				"antialias" "1"
@@ -307,9 +307,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"20"
-				"weight"	"1000"
+				"weight"	"100"
 				"antialias" "1"
 			}
 		}
@@ -317,9 +317,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"48"
-				"weight"	"600"
+				"weight"	"100"
 				"antialias" "1"
 			}
 		}
@@ -328,7 +328,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Questrial"
+				"name"		"Mentone-Semibold"
 				"tall"		"12"
 				"weight"	"500"
 			}
@@ -350,9 +350,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"24"
-				"weight"	"900"
+				"weight"	"100"
 				"antialias" "1"
 			}
 		}
@@ -362,9 +362,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"20"
-				"weight"	"900"
+				"weight"	"100"
 				"antialias" "1"
 			}
 		}
@@ -373,9 +373,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"18"
-				"weight"	"900"
+				"weight"	"100"
 				"antialias" "1"
 			}
 		}
@@ -386,7 +386,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"40"
 				"weight"	"900"
 			}
@@ -395,7 +395,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"41"
 				"weight"	"900"
 			}
@@ -404,36 +404,36 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"42"
-				"weight"	"900"
+				"weight"	"100"
 			}
 		}
 		"HUDNumber3"
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"43"
-				"weight"	"900"
+				"weight"	"100"
 			}
 		}
 		"HUDNumber4"
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"44"
-				"weight"	"900"
+				"weight"	"100"
 			}
 		}
 		"HUDNumber5"
 		{
 			"1"
 			{
-				"name"		"Open Sans Condensed Bold"
+				"name"		"Din 1451 Engschrift"
 				"tall"		"45"
-				"weight"	"900"
+				"weight"	"100"
 			}
 		}
 		"DefaultFixed"
@@ -943,8 +943,8 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/fonts/MILF__.ttf"
-		"3"		"resource/fonts/opensans.ttf"
-		"4"		"resource/fonts/ques.ttf"
+		"3"		"resource/fonts/din1451e.ttf"
+		"4"		"resource/fonts/mentone-semibol.otf"
 		"5"		"resource/fonts/Alégre Sans.ttf"
 	
 	}
