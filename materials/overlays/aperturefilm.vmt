@@ -1,0 +1,16 @@
+ "UnlitGeneric"
+ {
+  "$baseTexture" "overlays/aperturefilm"
+  "$surfaceprop" "glass"
+  "%keywords" "portal"
+  "%noportal"	"1"
+  "Proxies" 
+  { 
+   "ToggleTexture"
+   {
+    "toggleTextureVar" "$baseTexture"
+    "toggleTextureFrameNumVar" "$frame"
+    "toggleTextureShouldWrap" "0"
+   } 	
+  } 
+ }

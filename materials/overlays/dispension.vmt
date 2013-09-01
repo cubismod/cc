@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "overlays/dispension"
-	"$envmap"	"env_cubemap"
-	"$envmapmask"	"overlays/dispension_mask"
-}

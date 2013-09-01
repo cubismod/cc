@@ -1,6 +1,0 @@
-"DecalModulate"
-{
-	"$basetexture" "overlays/flickswitch"
-	"%keywords" "portal"
-	"$decalscale"	"0.05"
-}

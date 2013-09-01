@@ -18,7 +18,7 @@
 	"Freesound.org"	"CreditsText"
 	"Valve"	"CreditsText"
 	" "	          "CreditsText"
-	"2013 Hexastyle"	"CreditsText"
+	"Hexastyle"	"CreditsText"
 	"Special thanks to:"	          "CreditsText"
 	"ModDB"	"CreditsText"
 	"The Community"	"CreditsText"
