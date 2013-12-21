@@ -1,0 +1,7 @@
+ "UnlitGeneric"
+ {
+  "$baseTexture" "underground/indicator_triangle_1"
+  "$surfaceprop" "glass"
+  "%keywords" "portal,underground,lights"
+  "$decal" 1
+ }

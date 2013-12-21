@@ -1,0 +1,17 @@
+ "UnlitGeneric"
+ {
+  "$baseTexture" "underground/indicator_lights_1"
+  "$surfaceprop" "glass"
+  "%keywords" "portal,underground,lights"
+  "$decal" 1
+  "$translucent"	"1"
+   "Proxies" 
+  { 
+   "ToggleTexture"
+   {
+    "toggleTextureVar" "$baseTexture"
+    "toggleTextureFrameNumVar" "$frame"
+    "toggleTextureShouldWrap" "0"
+   } 	
+  } 
+ }

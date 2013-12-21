@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\underground\deconstructedbutton"
+	"$envmap"	"env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmaptint"	"[0.01 0.01 0.01]"
+	
+	"$bumpmap" "models\underground\deconstructedbutton_normal"
+	"$phong" "1"
+	"$phongexponent" "5"
+
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.3 0.1 1]"
+	
+
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	$basetexture	"underground/concrete2"
+	$surfaceprop	"concrete"
+	$bumpmap	"underground/concrete2_normal"
+	"%keywords"	"portal,underground,concrete"
+}

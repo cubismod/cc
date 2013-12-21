@@ -2,6 +2,7 @@
 {
 	$basetexture	"props/blinds1"
 	$surfaceprop	"plastic"
+	$translucent	"1"
 	$bumpmap	"props/blinds1_normal"
 	$envmap		"env_cubemap"
 	$normalmapalphaenvmapmask	1

@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\underground\oldcamera"
+
+	"$bumpmap" "models\underground\oldcamera_normal"
+	"$phong" "1"
+	"$phongexponent" "10"
+
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[5 5 2]"
+
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	$basetexture	"underground/rockwall01"
+	$bumpmap	"underground/rockwall01_normal"
+	$envmap	"env_cubemap"
+	$normalmapalphaenvmapmask	"1"
+	$envmaptint	"[0.01 0.01 0.01]"
+	"%keywords"	"portal,underground,rock"
+	"%noportal"	"1"
+}

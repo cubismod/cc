@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "underground/signs/beta1"
+	"$decal" 1
+	%keywords	"portal,clonedcube,signage,overlay"
+}
