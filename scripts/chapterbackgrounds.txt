@@ -1,4 +1,6 @@
 "chapters"
 {
-	1	"background1"
+	1	"training1"
+	2	"training_ug1"
+	3	"background1"
 }

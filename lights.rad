@@ -7,6 +7,7 @@ lights/fluorescentwarm001a	239 216 193 350
 lights/fluorescentwarm002a	239 216 193 400
 lights/fluorescentwhite001a	245 245 245 350
 lights/fluorescentwhite002a	245 245 245 400 
+lights/modular_light_1		250 240 205 220
 
 lights/light_recessedcool001	239 239 239 200
 lights/light_recessedcool002	149 180 200 350 149 180 200 200

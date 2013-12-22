@@ -21,7 +21,7 @@ actor "announcer"
     }
     event speak "Cloned_Cube.training_intro2"
     {
-      time 23.873335 52.015919
+      time 23.873335 52.015923
       param "Cloned_Cube.training_intro2"
       fixedlength
       cctype "cc_master"
@@ -35,6 +35,61 @@ actor "announcer"
       cctype "cc_master"
       cctoken ""
     }
+    event firetrigger "cloning"
+    {
+      time 3.613334 -1.000000
+      param "1"
+    }
+    event firetrigger "portals"
+    {
+      time 10.866668 -1.000000
+      param "1"
+    }
+    event firetrigger "cube"
+    {
+      time 12.666666 -1.000000
+      param "1"
+    }
+    event firetrigger "flinging"
+    {
+      time 16.973333 -1.000000
+      param "1"
+    }
+    event firetrigger "other dangerous obstacles"
+    {
+      time 19.333334 -1.000000
+      param "1"
+    }
+    event firetrigger "if you are not a clone"
+    {
+      time 25.839998 -1.000000
+      param "1"
+    }
+    event firetrigger "missing motor functions"
+    {
+      time 31.493334 -1.000000
+      param "1"
+    }
+    event firetrigger "defects"
+    {
+      time 35.500000 -1.000000
+      param "1"
+    }
+    event firetrigger "stupidity"
+    {
+      time 37.126671 -1.000000
+      param "1"
+    }
+    event firetrigger "or any other selfish reason"
+    {
+      time 39.940002 -1.000000
+      param "1"
+    }
+    event firetrigger "please dial"
+    {
+      time 44.500004 -1.000000
+      param "1"
+    }
   }
 }
 
@@ -43,6 +98,8 @@ scalesettings
   "CChoreoView" "100"
   "RampTool" "100"
   "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
 }
 fps 60
 snap off

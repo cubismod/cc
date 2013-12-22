@@ -970,4 +970,11 @@
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"	"voices/ug/end_seq/3.wav"
 }
+"Cloned_Cube.underbot_outro4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"	"voices/ug/out2.wav"
+}
 }

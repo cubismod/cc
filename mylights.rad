@@ -1,1 +1,5 @@
 forcetextureshadow models/props_c17/fence01b.mdl
+forcetextureshadow metal/metalgrate_bts_001a.vtf
+forcetextureshadow metal/metalgrate_bts_011a.vtf
+forcetextureshadow metal/metalgrate_bts_018.vtf
+forcetextureshadow metal/metalgrate_bts_018b.vtf

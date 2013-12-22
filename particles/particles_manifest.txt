@@ -41,5 +41,6 @@ particles_manifest
 	"file"		"particles/water_impact.pcf"
 	"file"		"particles/fire_02.pcf"
 	"file"		"particles/burning_fx.pcf"
-	"file"		"particles/impact_fx.pcf"		
+	"file"		"particles/impact_fx.pcf"
+	"file"		"particles/drip.pcf"
 }

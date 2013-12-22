@@ -1,5 +1,4 @@
-cc_1
-cc_2
 training1
 training2
 training_ug1
+cc_1

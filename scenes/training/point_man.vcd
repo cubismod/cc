@@ -1,7 +1,7 @@
 // Choreo version 1
 event loop "loop"
 {
-  time 12.422223 -1.000000
+  time 15.779366 -1.000000
   param "8.800000"
   loopcount "-1"
 }
@@ -72,20 +72,20 @@ actor "scientist"
     }
     event moveto "moveto_p2"
     {
-      time 8.303031 8.803031
+      time 8.303031 12.215312
       param "sci_seq_p2"
       param2 "Walk"
       resumecondition
     }
     event sequence "typeat_kb"
     {
-      time 8.818182 12.451515
+      time 12.318773 15.952106
       param "g_R_type"
       fixedlength
     }
     event lookat "lookat_kb"
     {
-      time 8.803031 12.468687
+      time 12.083733 16.327164
       param "sci_seq_la2"
     }
     event firetrigger "trigger1"
